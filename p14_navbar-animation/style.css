@@ -90,10 +90,19 @@ nav ul a {
     transition: transform 0.6s linear;
 }
 
+.icon .line1{
+    top: auto;
+    bottom: 15px;
+}
+.icon .line2{
+    top: auto;
+    bottom: 5px;
+}
+
 nav.active .icon .line1 {
-    transform: rotate(-765deg) translateY(0.5px);
+    transform: rotate(-765deg) translateY(7px);
 }
 
 nav.active .icon .line2 {
-    transform: rotate(765deg) translateY(-0.5px);
+    transform: rotate(765deg) translateY(-7px);
 }
